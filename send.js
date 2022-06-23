@@ -1,7 +1,7 @@
 const { ServiceBusClient } = require("@azure/service-bus");
 
 // connection string to your Service Bus namespace
-const connectionString = "Endpoint=sb://ecomdemo3.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=/Sl50Chl/1+GCxvzXUdHoOs93UL+LaypjWXtbALd/SI="
+const connectionString = ""
 const queueName = "cart-products"
 
 const messages = [
