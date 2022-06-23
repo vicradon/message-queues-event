@@ -1,0 +1,23 @@
+{
+  "name": "message-queues-event",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vicradon/message-queues-event.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vicradon/message-queues-event/issues"
+  },
+  "homepage": "https://github.com/vicradon/message-queues-event#readme",
+  "dependencies": {
+    "@azure/service-bus": "^7.5.1",
+    "express": "^4.18.1"
+  }
+}
