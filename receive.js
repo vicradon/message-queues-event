@@ -1,7 +1,7 @@
 const { delay, ServiceBusClient, ServiceBusMessage } = require("@azure/service-bus");
 
 // connection string to your Service Bus namespace
-const connectionString = ""
+const connectionString = process.env.CONNECTION_STRING
 const queueName = "cart-products"
 
 

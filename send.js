@@ -1,7 +1,8 @@
 const { ServiceBusClient } = require("@azure/service-bus");
+require('dotenv').config()
 
 // connection string to your Service Bus namespace
-const connectionString = ""
+const connectionString = process.env.CONNECTION_STRING
 const queueName = "cart-products"
 
 const messages = [
